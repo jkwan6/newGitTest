@@ -34,13 +34,10 @@ namespace pdf_reader_test
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "PDF files|*.pdf", ValidateNames = true, Multiselect = false })
-            {
-                if (ofd.ShowDialog() == DialogResult.OK)
-                {
-                    webBrowser1.Navigate(ofd.FileName);
-                }
-            }
+            DirectoryChoice OpenDirectory1 = new DirectoryChoice();
+            OpenDirectory1.ofd();
+            string DirectoryPath = OpenDirectory1.DirectoryPath;
+            webBrowser1.Navigate(DirectoryPath);
         }
     }
 }
