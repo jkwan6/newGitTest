@@ -1,7 +1,7 @@
 ﻿
 namespace pdf_reader_test
 {
-    partial class Form1
+    partial class UserInterface
     {
         /// <summary>
         /// Required designer variable.
@@ -68,14 +68,14 @@ namespace pdf_reader_test
             this.webBrowser1.Size = new System.Drawing.Size(969, 722);
             this.webBrowser1.TabIndex = 1;
             // 
-            // Form1
+            // UserInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(969, 797);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "UserInterface";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
