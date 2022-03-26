@@ -32,6 +32,7 @@ namespace pdf_reader_test
 
         }
 
+        // Codes for clicking Button 1
         private void button1_Click(object sender, EventArgs e)
         {
             DirectoryChoice OpenDirectory1 = new DirectoryChoice();
