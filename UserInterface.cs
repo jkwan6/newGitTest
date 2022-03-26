@@ -36,21 +36,10 @@ namespace pdf_reader_test
         // Codes for clicking Button 1
         private void button1_Click(object sender, EventArgs e)
         {
-            pdf = new PdfViewer();
-            panel2.Controls.Add(pdf);
-            OpenFileDialog dialog = new OpenFileDialog();
-            if (dialog.ShowDialog() == DialogResult.OK)
-            {
-                openfile(dialog.FileName);
-            }
+            OpenPDF pdf = new OpenPDF();
+            panel2.Controls.Add(pdf.getPDF());
+
         }
 
-        public void openfile( string filepath)
-        {
-            byte[] bytes = System.IO.File.ReadAllBytes(filepath);
-            var stream = new MemoryStream(bytes);
-            PdfDocument pdfDocument = PdfDocument.Load(stream);
-            pdf.Document = pdfDocument;
-        }
     }
 }
