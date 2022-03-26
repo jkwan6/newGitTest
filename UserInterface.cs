@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PdfSharp;
+using PdfiumViewer;
+using System.IO;    
 
 namespace pdf_reader_test
 {
     public partial class UserInterface : Form
     {
+        PdfViewer pdf;
+
         public UserInterface()
         {
             InitializeComponent();
@@ -35,10 +36,21 @@ namespace pdf_reader_test
         // Codes for clicking Button 1
         private void button1_Click(object sender, EventArgs e)
         {
-            DirectoryChoice OpenDirectory1 = new DirectoryChoice();
-            OpenDirectory1.ofd();
-            string DirectoryPath = OpenDirectory1.DirectoryPath;
-            webBrowser1.Navigate(DirectoryPath);
+            pdf = new PdfViewer();
+            panel2.Controls.Add(pdf);
+            OpenFileDialog dialog = new OpenFileDialog();
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                openfile(dialog.FileName);
+            }
+        }
+
+        public void openfile( string filepath)
+        {
+            byte[] bytes = System.IO.File.ReadAllBytes(filepath);
+            var stream = new MemoryStream(bytes);
+            PdfDocument pdfDocument = PdfDocument.Load(stream);
+            pdf.Document = pdfDocument;
         }
     }
 }

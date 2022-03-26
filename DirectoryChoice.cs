@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PdfSharp;
+using PdfiumViewer;
 
 namespace pdf_reader_test
 {
@@ -63,7 +61,7 @@ namespace pdf_reader_test
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    DirectoryPath = ofd.FileName;
+                    directoryPath = ofd.FileName;
                 }
             }
         }

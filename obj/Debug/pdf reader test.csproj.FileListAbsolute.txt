@@ -64,3 +64,8 @@ C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\de\PdfSharp.Charting.re
 C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\Interop.FOXITREADERLib.dll
 C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\AxInterop.FOXITREADERLib.dll
 C:\Users\User\Documents\C# Projects\newGitTest\obj\Debug\pdf_reader_test.UserInterface.resources
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\PdfiumViewer.dll
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\PdfiumViewer.xml
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\x64\pdfium.dll
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\x86\pdfium.dll

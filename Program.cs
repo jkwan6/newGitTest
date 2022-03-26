@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PdfSharp;
+using PdfiumViewer;
 
 
 namespace pdf_reader_test

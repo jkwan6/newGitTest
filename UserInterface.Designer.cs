@@ -32,7 +32,7 @@ namespace pdf_reader_test
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,16 +40,18 @@ namespace pdf_reader_test
             // 
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 722);
+            this.panel1.Location = new System.Drawing.Point(0, 699);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(969, 75);
+            this.panel1.Size = new System.Drawing.Size(1001, 75);
             this.panel1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(873, 15);
+            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button1.Location = new System.Drawing.Point(917, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 100, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 37);
+            this.button1.Size = new System.Drawing.Size(84, 75);
             this.button1.TabIndex = 0;
             this.button1.Text = "Open";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,21 +61,20 @@ namespace pdf_reader_test
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // webBrowser1
+            // panel2
             // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(969, 722);
-            this.webBrowser1.TabIndex = 1;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1001, 699);
+            this.panel2.TabIndex = 2;
             // 
             // UserInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 797);
-            this.Controls.Add(this.webBrowser1);
+            this.ClientSize = new System.Drawing.Size(1001, 774);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "UserInterface";
             this.Text = "Form1";
@@ -88,7 +89,7 @@ namespace pdf_reader_test
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
