@@ -11,11 +11,10 @@ namespace pdf_reader_test
 {
     public partial class UserInterface : Form
     {
-        PdfViewer pdf;
-
         public UserInterface()
         {
             InitializeComponent();
+            ResizeRedraw = true;
         }
 
         private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
@@ -37,9 +36,24 @@ namespace pdf_reader_test
         private void button1_Click(object sender, EventArgs e)
         {
             OpenPDF pdf = new OpenPDF();
-            panel2.Controls.Add(pdf.getPDF());
+            PdfViewer pdfViewer = new PdfViewer();
+            pdfViewer = pdf.getPDF();
+            pdfViewer.ClientSize = panel2.Size;
+            panel2.Controls.Add(pdfViewer);
+
+
 
         }
+
+
+
+        public event EventHandler panel2sizechanged;
+        public void onsizechanged()
+        {
+            if (panel2sizechanged != null)
+                panel2sizechanged(this, EventArgs.Empty);
+        }
+
 
     }
 }

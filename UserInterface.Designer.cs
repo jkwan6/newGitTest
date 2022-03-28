@@ -40,18 +40,19 @@ namespace pdf_reader_test
             // 
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 699);
+            this.panel1.Location = new System.Drawing.Point(0, 612);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1001, 75);
+            this.panel1.Size = new System.Drawing.Size(830, 49);
             this.panel1.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button1.Location = new System.Drawing.Point(917, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 100, 3);
+            this.button1.Location = new System.Drawing.Point(774, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 67, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 75);
+            this.button1.Size = new System.Drawing.Size(56, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "Open";
             this.button1.UseVisualStyleBackColor = true;
@@ -65,17 +66,19 @@ namespace pdf_reader_test
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1001, 699);
+            this.panel2.Size = new System.Drawing.Size(830, 612);
             this.panel2.TabIndex = 2;
             // 
             // UserInterface
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1001, 774);
+            this.ClientSize = new System.Drawing.Size(830, 661);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UserInterface";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

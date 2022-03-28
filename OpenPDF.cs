@@ -11,7 +11,7 @@ namespace pdf_reader_test
 {
     class OpenPDF
     {
-        // INSTANCE VARIABLES
+        ///////////////////// INSTANCE VARIABLES //////////////////////////
         private string directoryName;
         public string DirectoryName
         {
@@ -24,7 +24,6 @@ namespace pdf_reader_test
                 directoryName = value;
             }
         }
-
 
         private string directoryPath;
         public string DirectoryPath
@@ -39,7 +38,6 @@ namespace pdf_reader_test
             }
         }
 
-
         private string pdfFile;
         public string PDFFile
         {
@@ -52,26 +50,24 @@ namespace pdf_reader_test
                 pdfFile = value;
             }
         }
-        ////////////////////////////////////////////////////////////////////
 
 
-        // CONSTRUCTORS
+        ///////////////////// CONSTRUCTORS /////////////////////////////////
         public OpenPDF()
         {
         }
         ////////////////////////////////////////////////////////////////////
 
-
+        ///////////////////// PUBLIC METHODS ///////////////////////////////
         public PdfViewer getPDF()
         {
-            PdfViewer pdf = new PdfViewer();
+            PdfiumViewer.PdfViewer pdf = new PdfiumViewer.PdfViewer();
             pdf.Document = this.document(this.ofd());
             return pdf;
         }
 
 
-
-        // PRIVATE FUNCTIONS
+        ///////////////////// PRIVATE METHODS //////////////////////////////
         private string ofd()
         {
             using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "PDF files|*.pdf", ValidateNames = true, Multiselect = false })
@@ -87,9 +83,11 @@ namespace pdf_reader_test
         {
             byte[] bytes = System.IO.File.ReadAllBytes(filepath);
             var stream = new MemoryStream(bytes);
-            PdfDocument pdfDocument = PdfDocument.Load(stream);
+            PdfiumViewer.PdfDocument pdfDocument = PdfiumViewer.PdfDocument.Load(stream);
             return pdfDocument;
         }
+        ////////////////////////////////////////////////////////////////////
+
 
     }
 }
