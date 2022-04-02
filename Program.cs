@@ -19,7 +19,16 @@ namespace pdf_reader_test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserInterface());
+            UserInterface userInterface = new UserInterface();
+            userInterface.Resize += userInterface.Form1_SizeChanged;
+            Application.Run(userInterface);
+
         }
+        /// Main Method END
+    
+
+
+
+
     }
 }

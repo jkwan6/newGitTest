@@ -11,7 +11,7 @@ namespace pdf_reader_test
 {
     class OpenPDF
     {
-        ///////////////////// INSTANCE VARIABLES //////////////////////////
+        // Properties
         private string directoryName;
         public string DirectoryName
         {
@@ -52,23 +52,21 @@ namespace pdf_reader_test
         }
 
 
-        ///////////////////// CONSTRUCTORS /////////////////////////////////
+        // Constructors
         public OpenPDF()
         {
         }
-        ////////////////////////////////////////////////////////////////////
 
-        ///////////////////// PUBLIC METHODS ///////////////////////////////
+        // Public Methods
         public PdfViewer getPDF()
         {
             PdfiumViewer.PdfViewer pdf = new PdfiumViewer.PdfViewer();
-            pdf.Document = this.document(this.ofd());
+            pdf.Document = this.document(this.PdfOfd());
             return pdf;
         }
 
-
-        ///////////////////// PRIVATE METHODS //////////////////////////////
-        private string ofd()
+        // Private Methods
+        private string PdfOfd()
         {
             using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "PDF files|*.pdf", ValidateNames = true, Multiselect = false })
             {
@@ -79,6 +77,7 @@ namespace pdf_reader_test
             }
             return directoryName;
         }
+
         private PdfDocument document(string filepath)
         {
             byte[] bytes = System.IO.File.ReadAllBytes(filepath);
@@ -86,8 +85,5 @@ namespace pdf_reader_test
             PdfiumViewer.PdfDocument pdfDocument = PdfiumViewer.PdfDocument.Load(stream);
             return pdfDocument;
         }
-        ////////////////////////////////////////////////////////////////////
-
-
     }
 }
