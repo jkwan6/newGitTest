@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PdfSharp;
 using PdfiumViewer;
-using System.IO;    
+using System.IO;
+using AForge;
+using AForge.Imaging;
+using AForge.Math;
 
 namespace pdf_reader_test
 {
@@ -27,9 +30,11 @@ namespace pdf_reader_test
             pdfViewer.ClientSize = panel2.Size;
             panel2.Controls.Add(pdfViewer);
             viewer = pdfViewer;
+           
+
+
+
         }
-
-
 
         public void Form1_SizeChanged(object sender, EventArgs e)
         {
@@ -37,20 +42,28 @@ namespace pdf_reader_test
         }
 
 
-
-
         private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
         {
-
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
         {
-
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenPDF pdf = new OpenPDF();
+            PdfViewer pdfViewer = new PdfViewer();
+            pdfViewer = pdf.getPDF();
+
+            var image1 = pdfViewer.Document.Render(1, 300, 300, PdfRenderFlags.CorrectFromDpi);
+
+            image1.Save(@"C:\Users\User\Pictures\picture1.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+            
+
+
+        }
     }
 }

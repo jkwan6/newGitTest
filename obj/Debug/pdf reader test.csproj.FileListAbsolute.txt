@@ -109,3 +109,61 @@ C:\Users\kwcw\Documents\C# Projects\newGitTest\bin\Debug\Interop.FOXITREADERLib.
 C:\Users\kwcw\Documents\C# Projects\newGitTest\bin\Debug\AxInterop.FOXITREADERLib.dll
 C:\Users\kwcw\Documents\C# Projects\newGitTest\obj\Debug\Interop.FOXITREADERLib.dll
 C:\Users\kwcw\Documents\C# Projects\newGitTest\obj\Debug\AxInterop.FOXITREADERLib.dll
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\AForge.dll
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\AForge.Imaging.dll
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\AForge.Math.dll
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\AForge.xml
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\AForge.Imaging.xml
+C:\Users\User\Documents\C# Projects\newGitTest\bin\Debug\AForge.Math.xml
+C:\Users\User\Documents\C# Projects\newGitTest\obj\Debug\pdf reader test.csproj.CopyComplete
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\Magick.Native-Q16-x64.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\Magick.Native-Q16-x86.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\x64\pdfium.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\x86\pdfium.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\pdf reader test.exe.config
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\pdf reader test.exe
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\pdf reader test.pdb
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\AForge.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\AForge.Imaging.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\AForge.Math.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\Magick.NET-Q16-AnyCPU.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\Magick.NET.Core.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\PdfiumViewer.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\PdfSharp.Charting.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\PdfSharp.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Buffers.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Drawing.Common.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Memory.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\AForge.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\AForge.Imaging.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\AForge.Math.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\Magick.NET-Q16-AnyCPU.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\Magick.NET.Core.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\PdfiumViewer.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\PdfSharp.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\PdfSharp.Charting.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Buffers.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Drawing.Common.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Memory.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\Interop.FOXITREADERLib.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\bin\Debug\AxInterop.FOXITREADERLib.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf reader test.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\Interop.FOXITREADERLib.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\AxInterop.FOXITREADERLib.dll
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf reader test.csproj.ResolveComReference.cache
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf_reader_test.UserInterface.resources
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf_reader_test.Properties.Resources.resources
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf reader test.csproj.GenerateResource.cache
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf reader test.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf reader test.csproj.CopyComplete
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf reader test.exe
+C:\Users\User\Documents\C# Projects\newGitTest - Copy\obj\Debug\pdf reader test.pdb
