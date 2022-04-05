@@ -6,9 +6,6 @@ using System.Windows.Forms;
 using PdfSharp;
 using PdfiumViewer;
 using System.IO;
-using AForge;
-using AForge.Imaging;
-using AForge.Math;
 
 namespace pdf_reader_test
 {

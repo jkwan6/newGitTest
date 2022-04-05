@@ -6,7 +6,6 @@ using System.Windows.Forms;
 using PdfSharp;
 using PdfiumViewer;
 using System.IO;
-using ImageMagick;
 
 namespace pdf_reader_test
 {
