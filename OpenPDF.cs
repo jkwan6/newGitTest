@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using PdfSharp;
 using PdfiumViewer;
 using System.IO;
+using ImageMagick;
 
 namespace pdf_reader_test
 {
@@ -24,6 +25,7 @@ namespace pdf_reader_test
                 directoryName = value;
             }
         }
+
 
         private string directoryPath;
         public string DirectoryPath
@@ -62,6 +64,12 @@ namespace pdf_reader_test
         {
             PdfiumViewer.PdfViewer pdf = new PdfiumViewer.PdfViewer();
             pdf.Document = this.document(this.PdfOfd());
+
+
+
+
+
+
             return pdf;
         }
 
