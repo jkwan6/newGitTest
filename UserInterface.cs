@@ -31,6 +31,7 @@ namespace pdf_reader_test
 
 
 
+
         public void Form1_SizeChanged(object sender, EventArgs e)
         {
             viewer.ClientSize = panel2.Size;
